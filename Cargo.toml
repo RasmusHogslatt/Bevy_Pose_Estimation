@@ -4,11 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-opencv = {version="0.92.2", features = ["clang-runtime"]}
+opencv = { version = "0.92.2", features = ["clang-runtime"] }
 #onnxruntime = "0.0.14"
-log = "0.4.22"
-simple_logger = "5.0.0"
+#log = "0.4.22"
+#simple_logger = "5.0.0"
 serde-pickle = "1.1.1"
-crossbeam-channel = "0.5.13"
+#crossbeam-channel = "0.5.13"
 byteorder = "1.5.0"
-serde ={ version = "1.0", features = ["derive"]}
+serde = { version = "1.0", features = ["derive"] }
+bevy = "0.14.1"
