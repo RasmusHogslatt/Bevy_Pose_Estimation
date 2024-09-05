@@ -11,5 +11,5 @@ opencv = { version = "0.92.2", features = ["clang-runtime"] }
 serde-pickle = "1.1.1"
 #crossbeam-channel = "0.5.13"
 byteorder = "1.5.0"
-serde = { version = "1.0", features = ["derive"] }
-bevy = "0.14.1"
+serde ={ version = "1.0", features = ["derive"]}
+tflite = "0.9.8"
