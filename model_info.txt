@@ -1,0 +1,26 @@
+Input Details:
+  Name: sub_2
+  Shape: [  1 353 257   3]
+  Type: <class 'numpy.float32'>
+
+Output Details:
+  Name: float_heatmaps
+  Shape: [ 1 23 17 17]
+  Type: <class 'numpy.float32'>
+
+  Name: float_short_offsets
+  Shape: [ 1 23 17 34]
+  Type: <class 'numpy.float32'>
+
+  Name: float_mid_offsets
+  Shape: [ 1 23 17 64]
+  Type: <class 'numpy.float32'>
+
+  Name: float_segments
+  Shape: [ 1 23 17  1]
+  Type: <class 'numpy.float32'>
+
+Output float_heatmaps shape: (1, 23, 17, 17)
+Output float_short_offsets shape: (1, 23, 17, 34)
+Output float_mid_offsets shape: (1, 23, 17, 64)
+Output float_segments shape: (1, 23, 17, 1)
